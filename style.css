@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
+    background: ivory;
 }
 
 .container {
@@ -14,5 +15,17 @@ body, html {
 }
 
 #js-input {
-    margin: 25px 0 10px 0;
+    margin: 15px 0 10px 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#js-result {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#js-button {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
 }

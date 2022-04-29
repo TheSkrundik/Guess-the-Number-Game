@@ -11,7 +11,7 @@ const getResult = (guess) => {
 
     const correctAnswer = generateNumber();
 
-    return (guess === correctAnswer) ? 'You win!' :  'You failed! The number was ' + correctAnswer
+    return (guess === correctAnswer) ? 'You win!' :  `You failed! The number was  ${correctAnswer}`
 }
 
 const input = document.querySelector('#js-input')
